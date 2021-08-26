@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Header Section */
+.header{
+    background-color: #70a1ff;
+}
+.header-logo{}
+.header-logo img{
+    width: 280px;
+    margin: auto;
+}
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 0 20px;
+    line-height: 61px;
+    border-right: 1px solid #ddd;
+}
+.primary-menu ul li a:hover{
+    background-color: #1e90ff;
+}
+
+/* <!-- Banner Section --> */
+.banner{
+    background: url(https://jssors8.azureedge.net/demos/image-slider/img/px-beach-daylight-fun-1430675-image.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;   
+}
+.banner-text{
+    color: white;  
+}
+.banner h1{font-size: 67px;}
+.banner h2{font-size: 41px;}
+
+/* About Section */
+.about{
+    background-color: #ebf0f1;
+}
+
+/* Service Section */
+.service{
+    background-color: #f9f9f9;
+}
+.service span{
+    color: white;
+    background: #70a1ff;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    font-size: 45px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin-top: 16px;
+}
+.service h2{
+    margin-top: 20px;
+}
+.service p{}
+
+/* Product Section */
+img{
+    max-width: 100%;
+}
+.product{}
+.product-item{}
+.product-item p{
+    font-size: 20px;
+}
+.product-right{}
+.product-right h2{}
+.product-right ul{
+    padding-left: 0;
+}
+.product-right ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    background: rgba(221, 221, 221, 0.698);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Footer Section */
+.footer{
+    background-color: #57606f;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: white;
+}
+
+
